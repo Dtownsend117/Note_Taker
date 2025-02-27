@@ -40,7 +40,7 @@ class Notes:
                 if self.last_date is not None:
                     file.write("\n")
                 file.write(f"{current_date}\n") # Autofills the date in the txt file
-                file.write("============================\n") # Note separator 
+                file.write("============================\n") # Note separator, change to the key you want 
                 self.last_date = current_date
 
             file.write(f"({timestamp}) {note}\n")
